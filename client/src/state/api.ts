@@ -78,6 +78,7 @@ export const api = createApi({
         method: "POST",
         body: newProduct,
       }),
+      // everytime a product is created the Product List gets invalidated, forcing a recall to the Products query
       invalidatesTags: ["Products"],
     }),
     getUsers: build.query<User[], void>({
