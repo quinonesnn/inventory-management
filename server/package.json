@@ -22,8 +22,7 @@
     "helmet": "^7.1.0",
     "morgan": "^1.10.0",
     "prisma": "^5.18.0",
-    "rimraf": "^6.0.1",
-    "tsc": "^2.0.4"
+    "rimraf": "^6.0.1"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
